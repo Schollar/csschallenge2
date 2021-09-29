@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+}
+article {
+
+}
+.main {
+    position: relative;
+    background-color: darkcyan;
+    width: 100vw;
+    height: 150vh;
+}
+
+h1 {
+    position: sticky;
+    top: 1px;
+    margin: 0;
+    font-size: 16em;
+    text-align: center;
+    z-index: 2;
+}
+
+.shake1{
+    position: relative;
+    left: 400px;
+    z-index: 3;
+}
+.shake2{
+    position: absolute;
+    left: 600px;
+    z-index: 1;
+
+}
+.shake3{
+    position: absolute;
+    left: 800px;
+    z-index: 3;
+}
+section {
+    margin-bottom: 1000px;
+}
